@@ -3,45 +3,28 @@ Projeto de console em C# para buscar, listar e gerenciar filmes usando a OMDb AP
 
 🚀 Funcionalidades
 🔎 Buscar filmes pelo título na OMDb API
-
 📄 Listar filmes buscados
-
 🔍 Filtrar e ordenar filmes por título, gênero, ano e avaliação IMDb
-
 ⭐ Adicionar e remover filmes dos favoritos
-
 💾 Salvar e carregar favoritos em arquivo JSON local
-
 👋 Salvamento automático ao sair do programa
 
 🧠 O que você vai aprender
-Consumir APIs REST com HttpClient em C#
-
-Manipular exceções com try/catch
-
-Trabalhar com listas e LINQ para ordenação e filtragem
-
-Ler e escrever arquivos JSON com System.Text.Json
-
-Criar menus interativos em linha de comando
-
-Organizar código em camadas: Modelos, Serviços, Menus, Filtros
+- Consumir APIs REST com HttpClient em C#
+- Manipular exceções com try/catch
+- Trabalhar com listas e LINQ para ordenação e filtragem
+- Ler e escrever arquivos JSON com System.Text.Json
+- Criar menus interativos em linha de comando
+- Organizar código em camadas: Modelos, Serviços, Menus, Filtros
 
 🛠 Tecnologias utilizadas
 C# (.NET)
-
 HttpClient
-
 System.Text.Json
-
 LINQ
-
 Aplicação de console (CLI)
 
 📁 Estrutura do projeto
-pgsql
-Copiar
-Editar
 Catalogo-de-Filmes/
 │
 ├── FILTROS/
@@ -65,12 +48,10 @@ Catalogo-de-Filmes/
 │
 ├── Program.cs
 └── favoritos.json
+
 📦 Como executar
 Clone o repositório:
 
-bash
-Copiar
-Editar
 git clone https://github.com/seu-usuario/catalogo-de-filmes.git
 cd catalogo-de-filmes
 Obtenha uma chave da OMDb API:
@@ -80,17 +61,10 @@ Configure sua chave no código:
 Substitua "SUA_API_KEY" no arquivo FilmeService.cs pela sua chave.
 
 Compile e execute:
-
-bash
-Copiar
-Editar
 dotnet build
 dotnet run
 
 📖 Exemplo de uso
-diff
-Copiar
-Editar
 === 🎬 Catálogo de Filmes ===
 
 1 - Buscar filme  
@@ -99,6 +73,7 @@ Editar
 4 - Adicionar filme aos favoritos  
 5 - Ver favoritos salvos  
 0 - Sair
+
 💾 Persistência
 Os favoritos são salvos automaticamente no arquivo favoritos.json para que você não perca seus filmes preferidos ao fechar o programa.
 
